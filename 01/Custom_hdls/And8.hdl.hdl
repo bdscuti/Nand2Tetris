@@ -1,0 +1,9 @@
+CHIP Foo {
+    IN in[16];
+    OUT out[8];
+PARTS:
+    Not16(in=in, out[0..7]=low8, out[8..15]=high8);
+}
+
+
+

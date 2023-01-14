@@ -1,0 +1,14 @@
+CHIP MultipleOutputs {
+    IN in[16];
+    OUT out[8];
+    PARTS:
+        Not16(in=in, out[0..7]=low8, out[8..15]=high8);
+	And8(a=low8, b=high8, out= out)
+
+
+
+
+}
+
+
+
