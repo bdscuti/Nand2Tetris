@@ -155,7 +155,6 @@ def codeWriter(vm_file, type_of_current_command, arg1, arg2)
     
     
     
-    
 def write(code):
     if DebugMode = True:
         print(code)
